@@ -33,6 +33,7 @@ class IndexPage extends React.Component {
       <Layout>
         <div className={styles.textCenter}>
           <p>
+            {"Click "}
             <span
               style={{
                 fontWeight: "bold",
@@ -41,7 +42,7 @@ class IndexPage extends React.Component {
               }}
               onClick={this._click}
             >
-              XOXO
+              xoxo
             </span>
             {" to confetti!!"}
           </p>

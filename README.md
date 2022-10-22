@@ -1,1 +1,7 @@
-View [here](https://conffetti.vercel.app/)
+Demo effect like Xoxo animation on Facebook.
+
+## Happy Vietnamese Women's Day
+
+![](assets/page.png)
+![](assets/xoxo.png)
+[Preview](https://conffetti.vercel.app/)

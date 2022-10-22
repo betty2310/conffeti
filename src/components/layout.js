@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 
 import Header from "./header"
@@ -26,7 +27,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Helmet
+        title="🇻🇳 20-10 confetti"
+        meta={[
+          {
+            name: 'Build for fun :v',
+            content: 'confetti demo',
+          },
+          { name: 'keywords', content: 'animation, lottie, web, after effect' },
+        ]}
+      />
+      <Header />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div
         style={{
           margin: `0 auto`,

@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://betty2310.github.io/`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

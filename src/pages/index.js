@@ -1,7 +1,6 @@
 import React from "react"
 import lottie from "lottie-web"
 import * as styles from "../components/index.module.css"
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 
 import animation from "../static/star.json"
